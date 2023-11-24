@@ -1,0 +1,142 @@
+.banner{
+    background-image: url("../img/Banner.jpg");
+    padding: 25%;
+    position: relative;
+    background-attachment: fixed;
+    z-index: 1;
+}
+
+.banner::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color:#242424 ;
+    opacity: 0.5;
+    z-index: -1;
+}
+
+.banner2{
+    background-image: url("../img/banner2.avif");
+    padding: 25%;
+    position: relative;
+    background-attachment: fixed;
+    z-index: 1;
+}
+
+.banner2::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color:#242424 ;
+    opacity: 0.5;
+    z-index: -1;
+}
+.banner3{
+    background-image: url("../img/banner3.jpeg");
+    padding: 25%;
+    position: relative;
+    background-attachment: fixed;
+    z-index: 1;
+}
+
+.banner3::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color:#242424 ;
+    opacity: 0.5;
+    z-index: -1;
+}
+
+.columnaDashboard{
+    height: 100vh;
+}
+.opcion:hover{
+    opacity: 0.5;
+}
+
+.logo{
+    height: 75px;
+    width: 75px;
+}
+#tr{
+    border-radius: 20px;
+    align-content: center;
+}
+#tm{
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-fluid{
+    height: 150px;
+    width: 180px;
+    border-radius: 15px;
+}
+#navbar {
+    top: 0;
+    background-color: #333; 
+    color: white; 
+    opacity: 0.7;
+    transition: top 0.3s ease-in-out;
+
+}
+
+#contenido {
+    padding-top: 100px; 
+}
+
+#icon {
+    font-size: 5rem; 
+    margin-left: 95px;
+}
+#cont{
+    margin-top: 90px;
+}
+
+#cont1 .opcion {
+    margin-bottom: 10px;
+    margin-top: 20px;
+    background-color: rgba(37, 160, 64, 0.63);
+    border-radius: 50px; /* Añade bordes redondeados para un mejor aspecto */
+    cursor: pointer; /* Agrega un cursor para indicar que es interactivo */
+    border-color: black;
+}
+#cont1{
+    background-color: rgb(136, 133, 133); 
+    border-radius: 5px;
+    
+}
+.body{
+    background-color: rgb(224, 220, 220); 
+}
+a {
+    text-decoration: none; /* Quita el subrayado */
+    color: inherit; /* Usa el color heredado del elemento padre, evita el color azul predeterminado */
+}
+
+#cd{
+    background-color: rgba(0, 250, 217, 0.548);
+    background-image: url("../img/hoja.jpg");
+    background-size: cover;
+    background-position: center center;
+    opacity: 0.7;
+    z-index: 1;
+}
+#cont2{
+    margin-top: 110px;
+}
+.tx{
+    color: rgb(255, 255, 255);
+}
+
